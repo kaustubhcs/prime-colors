@@ -1,7 +1,6 @@
-#include <iostream>
 #include <stdio.h>
-//#include <debugger.h>
-//#include <functions.h>
+#include "debugger.h"
+#include "functions.h"
 
 
 using namespace std;
@@ -39,7 +38,7 @@ int main (int argc, char *argv[] ) {
     }
 
 
-
+cout << test (13) << endl;
 
 
 
